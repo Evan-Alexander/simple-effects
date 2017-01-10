@@ -1,0 +1,12 @@
+#dolphin-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #08c;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
