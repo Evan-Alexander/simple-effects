@@ -3,6 +3,7 @@
   <head>
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Peek Aboo</title>
   </head>
@@ -10,17 +11,20 @@
   <body>
     <div class="container">
       <h1>Peek a Boo!</h1>
+      <button class="btn btn-success" id="green">Green</button>
+      <button class="btn btn-warning" id="yellow">Yellow</button>
+      <button class="btn btn-danger" id="red">Red</button>
+
       <div id="dolphin-hidden">
-        <p>Let's play peek aboo. <span class="clickable">Click this</span> sentence to show the picture.s
+        <br><p>Let's play peek aboo. <span class="clickable">Click this</span> sentence to show the picture.s
       </div>
+
       <div id="dolphin-showing">
-        <p>What a cute dophin.  <span class="clickable">Click here</span> to look at Flipper!</p>
+        <br><p>What a cute dophin.  <span class="clickable">Click here</span> to look at Flipper!</p>
         <img src="img/apicture.jpeg" alt="this is a picture">
       </div>
 
-      <div id="test">
-        <img src="img/apicture.jpeg" alt="this is a picture of a dolphin">
-      </div>
+
 
     </div>
   </body>
