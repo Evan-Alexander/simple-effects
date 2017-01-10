@@ -6,6 +6,10 @@
   background-color: yellow;
 }
 
+.red-background {
+  background-color: red;
+}
+
 #dolphin-showing {
   display: none;
 }
